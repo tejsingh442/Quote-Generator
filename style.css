@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;500&display=swap');
+body{
+	margin: 0px;
+	height: 100vh;
+	background-color: #fbf8ff;
+	background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.22'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Zen Kaku Gothic Antique, sans-serif;
+}
+.quote-container{
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgb(128, 128, 128);
+	font-size: 2.5rem;
+	margin: auto 5px;
+	font-weight: 400;
+	padding: 10px 10px;
+}
+#author{
+	margin: 10px;
+	font-weight: 390;
+	font-size: 2rem;
+	font-style: italic;
+}
+#buttons{
+	display: flex;
+	justify-content: space-between;
+}
+.button{
+	font-size: 1.25rem;    
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 0.7rem;
+}
+#twitter{
+	color: #fff;
+    background-color: #1DA1F2;
+
+}
+#new-quote{
+	color: #fff;
+	background-color: #3D4849;
+}
