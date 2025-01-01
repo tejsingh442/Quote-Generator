@@ -5,14 +5,14 @@ let twitterBtn = document.getElementById("twitter");
 let apiQuotes = [];
 // Changing Quote
 function newQuote(){
-	quoteText.textContent = quote.text;
+	quoteText.textContent = quote.quote;
 	author.textContent= "- " + quote.author; 
 } 
 //Fetching Data
 async function getQuotes() {
-	const apiUrl = "https://type.fit/api/quotes";
+	const apiUrl = "";
 	try{
-		const apiUrl = "https://type.fit/api/quotes";
+		const apiUrl = "https://raw.githubusercontent.com/AtaGowani/daily-motivation/refs/heads/master/src/data/quotes.json";
 		const response = await fetch(apiUrl);
 		apiQuotes = await response.json();
 		quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
